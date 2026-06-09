@@ -1,176 +1,299 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta
-    name="description"
-    content="Rafael Anulao is a computer science student, data science intern, and biology graduate with chemistry research experience."
-  />
-  <title>Rafael Anulao // Computer Science + Biology</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header" id="top">
-    <a class="skip-link" href="#selected-work">Skip to selected work</a>
-
-    <nav class="site-nav" aria-label="Primary navigation">
-      <a href="#selected-work">Projects</a>
-      <a href="https://github.com/rafanulao" target="_blank" rel="noreferrer">GitHub</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="intro" aria-labelledby="intro-title">
-      <div class="intro-copy">
-        <p class="eyebrow">Rafael Anulao</p>
-        <h1 id="intro-title">Computer Science Student | Data Science Intern | Biology Graduate</h1>
-        <p class="lead">
-          I am a computer science student at the University of Texas Rio Grande Valley,
-          a data science intern at Alshival.ai, and a biology graduate with chemistry
-          research experience in cancer and diabetes-focused compound synthesis.
-        </p>
-        <p>
-          I like work that sits between software and science: practical data tools,
-          reproducible lab workflows, small web systems, and infrastructure that can run
-          on hardware I understand well enough to repair.
-        </p>
-
-        <div class="contact-line" id="contact" aria-label="Contact links">
-          <a href="mailto:rafaelanulao@gmail.com">email: rafaelanulao@gmail.com</a>
-          <a href="https://github.com/rafanulao" target="_blank" rel="noreferrer">github: @rafanulao</a>
-          <a href="https://linkedin.com/in/rafael-anulao/" target="_blank" rel="noreferrer">linkedin</a>
-          <a href="assets/rafael-anulao-resume.pdf">resume.pdf</a>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rafael Anulao is a computer science student, data science intern, and biology graduate with chemistry research experience."
+    />
+    <title>Rafael Anulao</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="gradient-bg" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" focusable="false">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur
+              in="SourceGraphic"
+              stdDeviation="12"
+              result="blur"
+            />
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+              result="goo"
+            />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+        </defs>
+      </svg>
+      <div class="gradients-container">
+        <div class="gradient-layer g1"></div>
+        <div class="gradient-layer g2"></div>
+        <div class="gradient-layer g3"></div>
+        <div class="gradient-layer g4"></div>
+        <div class="gradient-layer g5"></div>
+        <div class="gradient-layer interactive"></div>
       </div>
+    </div>
 
-    </section>
+    <header class="site-header" id="top">
+      <a class="skip-link" href="#selected-work">Skip to selected work</a>
 
-    <a class="status-strip" href="#notes" aria-label="Current focus">
-      <span>Current focus</span>
-      <strong>Turning lab fluency into useful software: data cleaning, ML practice, and small self-hosted systems.</strong>
-    </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#selected-work">Projects</a>
+        <a href="https://github.com/rafanulao" target="_blank" rel="noreferrer"
+          >GitHub</a
+        >
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-    <section class="section-block" id="selected-work" aria-labelledby="selected-work-title">
-      <h2 id="selected-work-title">Selected Work</h2>
-
-      <article class="entry">
-        <div class="entry-meta">
-          <h3>Alshival.ai</h3>
-          <span>internship</span>
-        </div>
-        <div class="entry-body">
-          <p class="entry-kicker">Data Science Intern</p>
-          <p>
-            Contributing to applied AI and web application work while building better habits
-            around data preparation, model evaluation, deployment, and communicating technical
-            tradeoffs with a team.
+    <main>
+      <section class="intro" aria-labelledby="intro-title">
+        <div class="intro-copy">
+          <p class="eyebrow">Rafael Anulao</p>
+          <h1 id="intro-title">
+            Computer Science Student | Data Science Intern | Biology Graduate
+          </h1>
+          <p class="lead">
+            I am a computer science student at the University of Texas Rio
+            Grande Valley, a data science intern at Alshival.ai, and a biology
+            graduate.
           </p>
-          <ul class="tag-list" aria-label="Technologies and topics">
-            <li>python</li>
-            <li>data science</li>
-            <li>ai/ml</li>
-            <li>web apps</li>
-            <li>deployment</li>
-          </ul>
-        </div>
-      </article>
-
-      <article class="entry" id="research">
-        <div class="entry-meta">
-          <h3>UTRGV Chemistry Research</h3>
-          <span>research</span>
-        </div>
-        <div class="entry-body">
-          <p class="entry-kicker">Compound Synthesis for Biomedical Research</p>
           <p>
-            Worked with the UTRGV Chemistry Department synthesizing compounds connected to
-            cancer and diabetes research. That experience still shapes how I think about
-            careful measurement, documentation, and software that respects messy real-world data.
+            I like work that sits between software and science: practical data
+            tools, small web systems, and infrastructure that can run on
+            hardware I understand well enough to repair.
           </p>
-          <ul class="tag-list" aria-label="Research background">
-            <li>biology</li>
-            <li>chemistry</li>
-            <li>wet lab</li>
-            <li>synthesis</li>
-            <li>documentation</li>
-          </ul>
-        </div>
-      </article>
 
-      <article class="entry">
-        <div class="entry-meta">
-          <h3>Student Systems</h3>
-          <span>ongoing</span>
+          <div class="contact-line" id="contact" aria-label="Contact links">
+            <a href="mailto:rafaelanulao@gmail.com"
+              >email: rafaelanulao@gmail.com</a
+            >
+            <a
+              href="https://github.com/rafanulao"
+              target="_blank"
+              rel="noreferrer"
+              >github: @rafanulao</a
+            >
+            <a
+              href="https://linkedin.com/in/rafael-anulao/"
+              target="_blank"
+              rel="noreferrer"
+              >linkedin</a
+            >
+            <a href="assets/rafael-anulao-resume.pdf">resume.pdf</a>
+          </div>
         </div>
-        <div class="entry-body">
-          <p class="entry-kicker">Computer Science Practice Ground</p>
+      </section>
+
+      <a class="status-strip" href="#notes" aria-label="Current focus">
+        <span>Current focus</span>
+        <strong
+          >Data cleaning, ML practice, and small self-hosted systems.</strong
+        >
+      </a>
+
+      <section
+        class="section-block"
+        id="selected-work"
+        aria-labelledby="selected-work-title"
+      >
+        <h2 id="selected-work-title">Selected Work</h2>
+
+        <article class="entry">
+          <div class="entry-meta">
+            <h3>Alshival.ai</h3>
+            <span>internship</span>
+          </div>
+          <div class="entry-body">
+            <p class="entry-kicker">Data Science Intern</p>
+            <p>
+              Contributing to applied AI and web application work while building
+              better habits around data preparation, model evaluation,
+              deployment, and communicating technical tradeoffs with a team.
+            </p>
+            <ul class="tag-list" aria-label="Technologies and topics">
+              <li>python</li>
+              <li>data science</li>
+              <li>ai/ml</li>
+              <li>web apps</li>
+              <li>deployment</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-meta">
+            <h3>Student Systems</h3>
+            <span>ongoing</span>
+          </div>
+          <div class="entry-body">
+            <p class="entry-kicker">Computer Science Practice Ground</p>
+            <p>
+              Building the fundamentals through projects, coursework, and
+              internship work: algorithms, databases, Linux, Python, web
+              interfaces, and the glue code that turns a useful idea into
+              something another person can actually run.
+            </p>
+            <ul class="tag-list" aria-label="Computer science skills">
+              <li>python</li>
+              <li>javascript</li>
+              <li>html/css</li>
+              <li>linux</li>
+              <li>sql</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-meta">
+            <h3>Venture</h3>
+            <span>project</span>
+          </div>
+          <div class="entry-body">
+            <p class="entry-kicker">Community Spaces for UTRGV Clubs</p>
+            <p>
+              Venture is a web app I developed along with a small group for a
+              software engineering course at UTRGV. The app functions as a
+              platform for students to discover clubs on campus based on their
+              interests and communicate with other members within their clubs.
+              We implemented a matching algortihm for club recommendations,
+              Discord style servers and channels for individual clubs, and
+              real-time chat functionality.
+            </p>
+            <ul class="tag-list" aria-label="Deployment stack">
+              <li>python</li>
+              <li>javascript</li>
+              <li>html/css</li>
+              <li>sql</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="entry">
+          <div class="entry-meta">
+            <h3>Personal Site</h3>
+            <span>self-hosted</span>
+          </div>
+          <div class="entry-body">
+            <p class="entry-kicker">Static Portfolio for Raspberry Pi</p>
+            <p>
+              This site is intentionally simple: static HTML, one stylesheet,
+              local assets, and no build step. It is designed to be served from
+              a Raspberry Pi.
+            </p>
+            <ul class="tag-list" aria-label="Deployment stack">
+              <li>raspberry pi</li>
+              <li>nginx</li>
+              <li>ssh</li>
+              <li>static site</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="entry" id="research">
+          <div class="entry-meta">
+            <h3>UTRGV Chemistry Research</h3>
+            <span>research</span>
+          </div>
+          <div class="entry-body">
+            <p class="entry-kicker">
+              Compound Synthesis for Biomedical Research
+            </p>
+            <p>
+              Worked with the UTRGV Chemistry Department synthesizing compounds
+              connected to cancer and diabetes research. That experience still
+              shapes how I think about careful measurement, documentation, and
+              software that respects messy real-world data.
+            </p>
+            <ul class="tag-list" aria-label="Research background">
+              <li>biology</li>
+              <li>chemistry</li>
+              <li>wet lab</li>
+              <li>synthesis</li>
+              <li>documentation</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <!-- <section
+        class="section-block compact"
+        id="notes"
+        aria-labelledby="notes-title"
+      >
+        <h2 id="notes-title">Notes</h2>
+
+        <article class="note">
+          <h3>What I am looking for</h3>
           <p>
-            Building the fundamentals through projects, coursework, and internship work:
-            algorithms, databases, Linux, Python, web interfaces, and the glue code that
-            turns a useful idea into something another person can actually run.
+            Internship and junior engineering opportunities where biology
+            knowledge is useful, curiosity is an advantage, and the work rewards
+            careful thinking.
           </p>
-          <ul class="tag-list" aria-label="Computer science skills">
-            <li>python</li>
-            <li>javascript</li>
-            <li>html/css</li>
-            <li>linux</li>
-            <li>sql</li>
-          </ul>
-        </div>
-      </article>
+        </article>
 
-      <article class="entry">
-        <div class="entry-meta">
-          <h3>Personal Site</h3>
-          <span>self-hosted</span>
-        </div>
-        <div class="entry-body">
-          <p class="entry-kicker">Static Portfolio for Raspberry Pi</p>
+        <article class="note">
+          <h3>What I am building toward</h3>
           <p>
-            This site is intentionally simple: static HTML, one stylesheet, local assets,
-            and no build step. It is designed to be served from a Raspberry Pi with Nginx
-            or Caddy instead of Azure.
+            Software for science and healthcare-adjacent problems: data
+            pipelines, lab tools, dashboards, and small ML systems that make
+            hard information easier to inspect.
           </p>
-          <ul class="tag-list" aria-label="Deployment stack">
-            <li>raspberry pi</li>
-            <li>nginx</li>
-            <li>ssh</li>
-            <li>static site</li>
-          </ul>
-        </div>
-      </article>
-    </section>
+        </article>
+      </section> -->
+    </main>
 
-    <section class="section-block compact" id="notes" aria-labelledby="notes-title">
-      <h2 id="notes-title">Notes</h2>
+    <footer class="site-footer">
+      <p>
+        B.S. Biology | Computer Science student | Data Science intern &middot;
+        <a href="https://github.com/rafanulao" target="_blank" rel="noreferrer"
+          >GitHub</a
+        >
+        &middot; <a href="mailto:rafaelanulao@gmail.com">Email</a> &middot;
+        <a href="#top">Back to top</a>
+      </p>
+    </footer>
 
-      <article class="note">
-        <h3>What I am looking for</h3>
-        <p>
-          Internship and junior engineering opportunities where biology knowledge is useful,
-          curiosity is an advantage, and the work rewards careful thinking.
-        </p>
-      </article>
+    <script>
+      (() => {
+        const interactive = document.querySelector(".interactive");
+        const reduceMotion = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        );
 
-      <article class="note">
-        <h3>What I am building toward</h3>
-        <p>
-          Software for science and healthcare-adjacent problems: data pipelines, lab tools,
-          dashboards, and small ML systems that make hard information easier to inspect.
-        </p>
-      </article>
-    </section>
-  </main>
+        if (!interactive || reduceMotion.matches) {
+          return;
+        }
 
-  <footer class="site-footer">
-    <p>
-      B.S. Biology | Computer Science student | Data Science intern
-      &middot; <a href="https://github.com/rafanulao" target="_blank" rel="noreferrer">GitHub</a>
-      &middot; <a href="mailto:rafaelanulao@gmail.com">Email</a>
-      &middot; <a href="#top">Back to top</a>
-    </p>
-  </footer>
-</body>
+        let currentX = window.innerWidth / 2;
+        let currentY = window.innerHeight * 0.35;
+        let targetX = currentX;
+        let targetY = currentY;
+
+        const move = () => {
+          currentX += (targetX - currentX) / 18;
+          currentY += (targetY - currentY) / 18;
+          interactive.style.transform = `translate3d(${Math.round(currentX)}px, ${Math.round(currentY)}px, 0)`;
+          window.requestAnimationFrame(move);
+        };
+
+        const setTarget = (event) => {
+          targetX = event.clientX;
+          targetY = event.clientY;
+        };
+
+        window.addEventListener("pointermove", setTarget, { passive: true });
+        window.addEventListener("pointerdown", setTarget, { passive: true });
+        window.addEventListener("mousemove", setTarget, { passive: true });
+        window.addEventListener("click", setTarget, { passive: true });
+        move();
+      })();
+    </script>
+  </body>
 </html>
